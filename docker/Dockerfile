@@ -8,7 +8,8 @@ RUN git clone https://github.com/agurfinkel/minisat && \
     git clone https://github.com/msoos/cryptominisat && \
     git clone https://github.com/stp/stp && \
     git clone https://github.com/Boolector/boolector && \
-    git clone https://github.com/kste/cryptosmt
+    git clone https://github.com/zkzzkkss/cryptosmt
+
 
 WORKDIR /home/tools/minisat
 RUN apt-get install -y zlib1g-dev
