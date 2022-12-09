@@ -16,7 +16,7 @@ import os
 import time
 import sys
 
-from fractions import gcd
+from math import gcd
 
 def computeFeistelBoomerangDifferential(cipher, parameters):
     """
